@@ -7,7 +7,7 @@ public class CreateTableRegistration {
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con= DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/newdata","root","root");
+                    "jdbc:mysql://localhost:3306/STUDENTS","root","root");
 
             String sql = "CREATE TABLE REGISTRATION " +
                     "(id int(20) auto_increment, " +
