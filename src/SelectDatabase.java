@@ -3,9 +3,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class SelectDatabase {
-    static final String DB_URL = "jdbc:mysql://localhost/TUTORIALSPOINT";
-    static final String USER = "guest";
-    static final String PASS = "guest123";
+    static final String DB_URL = "jdbc:mysql://localhost:3306/STUDENTS";
+    static final String USER = "root";
+    static final String PASS = "root";
 
     public static void main(String[] args) {
         System.out.println("Connecting to a selected database...");
