@@ -14,8 +14,10 @@ public class CreateTableRegistration {
                     " name VARCHAR(200) not null, " +
                     " city VARCHAR(200), " +
                     " PRIMARY KEY ( id ))";
+
             Statement stmt = con.createStatement();
             stmt.executeUpdate(sql);
+
             System.out.println("Created table in given database...");
 
             con.close();
