@@ -19,7 +19,7 @@ public class InsertImages {
 
             pstmt.executeUpdate();
 
-            System.out.println("Done....");
+            System.out.println("Done...");
 
             con.close();
 
