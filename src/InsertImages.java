@@ -13,7 +13,7 @@ public class InsertImages {
 
             java.sql.PreparedStatement pstmt = con.prepareStatement(q);
 
-            FileInputStream fis = new FileInputStream("C:\\Users\\PCCOM\\Desktop");
+            FileInputStream fis = new FileInputStream("C:\\Users\\PCC\\OM\\Desktop");
 
             pstmt.setBinaryStream(1,fis,fis.available());
 
