@@ -12,7 +12,6 @@ public class ConnectionProvider {
                         "jdbc:mysql://localhost:3306/newdata","root","root");
             }
 
-
         }catch (Exception e){
             System.out.println(e);
         }
